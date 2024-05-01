@@ -10,6 +10,7 @@ export function generateStaticParams() {
   return [
     { tea: "te-azul" },
     { tea: "te-blanco" },
+    { tea: "te-infusiones" },
     { tea: "te-negro" },
     { tea: "te-rojo" },
     { tea: "te-rooibos" },
