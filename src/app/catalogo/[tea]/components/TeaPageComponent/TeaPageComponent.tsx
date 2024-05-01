@@ -20,7 +20,10 @@ export default function TeaPageComponent({
       <div className="flex flex-wrap justify-center mt-20">
         <div className="flex flex-col items-center justify-center w-full my-6">
           <h1 className="text-lg md:text-2xl text-gray-500">
-            TÉ {teaName.split("-")[1].toUpperCase()}
+            {!teaName.includes("infusiones") &&
+              !teaName.includes("rooibos") &&
+              "TÉ "}
+            {teaName.split("-")[1].toUpperCase()}
           </h1>
         </div>
         <div className="flex flex-wrap justify-center">

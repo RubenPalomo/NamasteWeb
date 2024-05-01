@@ -11,7 +11,7 @@ export default function TeaVarietyCard({
 
   try {
     image = require(`../../../../utils/images/${teaName}/${varietyName
-      .split(" ")[0]
+      .replaceAll(" ", "-")
       .toLowerCase()}.jpeg`);
   } catch (error) {
     console.error(error);

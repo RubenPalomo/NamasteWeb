@@ -26,7 +26,7 @@ export default function TeaPage({ params }: { params: { tea: string } }) {
 
   return (
     <main className="flex flex-col items-center min-h-screen bg-green-50">
-      <Header />
+      <Header currentPage="CatalogPage" />
       <TeaPageComponent teaName={params.tea} varieties={varieties} />
     </main>
   );
