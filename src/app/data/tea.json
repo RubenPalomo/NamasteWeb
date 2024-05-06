@@ -235,8 +235,14 @@
     ]
   },
   "infusiones": {
-    "description": "Infusiones",
-    "benefits": ["Está muy rico", "No tiene teína", "Es muy sano"],
+    "description": "Las infusiones son bebidas preparadas mediante la inmersión de hierbas, frutas, especias o flores en agua caliente. Ofrecen una amplia gama de sabores y beneficios para la salud y una alternativa sin cafeína.",
+    "benefits": [
+      "Mejoran la relajación y la hidratación",
+      "Favorece la digestión",
+      "Apoyo al sistema inmunológico",
+      "Alivia el estrés y ayuda a dormir mejor",
+      "Algunos incluyen antioxidantes"
+    ],
     "varieties": [
       {
         "Mango con cúrcuma": "Trozos de manzana, piña confitada, mango confitado, papaya confitada, raíz de cúrcuma molida y aromas."
